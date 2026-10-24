@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verifique você mesmo: o Penra não envia nada | Penra</title><meta name="description" content="Dizemos que o Penra não coleta nada. Você não precisa confiar em nós. Seu aparelho conta cada byte que cada app envia, e você pode ver."><link rel="canonical" href="https://penra-app.github.io/pt/verify/"><link rel="alternate" hreflang="en" href="https://penra-app.github.io/verify/"><link rel="alternate" hreflang="tr" href="https://penra-app.github.io/tr/verify/"><link rel="alternate" hreflang="pt" href="https://penra-app.github.io/pt/verify/">
+<link rel="icon" href="../../img/favicon-32.png"><style>
+:root{--bg:#F6F1E8;--ink:#1E1B16;--muted:#6E6458;--red:#962020;--card:#FFFCF6;--line:#E2D8C8}
+@media (prefers-color-scheme:dark){:root{--bg:#16130F;--ink:#F3ECE0;--muted:#B5AA9A;--red:#D9534F;--card:#211D18;--line:#3A332B}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--red)}main,header,footer{max-width:1040px;margin:0 auto;padding:0 20px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:20px}
+.brand{display:flex;align-items:center;gap:10px;font:700 24px Georgia,serif;color:var(--ink);text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:50%}
+nav.lang a{margin-left:12px;font-size:14px;text-decoration:none;color:var(--muted)}nav.lang a[aria-current]{color:var(--ink);font-weight:700}
+.hero{padding:48px 0 28px}.kicker{color:var(--muted);margin:0 0 8px}
+h1{font:700 clamp(40px,8vw,76px)/1.05 Georgia,serif;margin:0}h1 span{color:var(--red);display:block}
+.lead{font-size:20px;max-width:640px;margin:20px 0 0}
+.band{background:var(--red);color:#fff;text-align:center;padding:28px 20px;margin:28px 0}
+.band strong{display:block;font:700 clamp(28px,5vw,46px)/1.15 Georgia,serif;letter-spacing:.5px;text-transform:uppercase}
+.band p{margin:8px 0 0;color:#FFE4D7}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:8px 0 36px}
+.shots figure{margin:0;text-align:center}.shots img{width:100%;height:auto;border-radius:22px;border:1px solid var(--line);box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.shots figcaption{font-weight:600;margin-top:10px}
+h2{font:700 30px Georgia,serif;margin:40px 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.card h3{margin:0 0 6px;font-size:19px}.card p{margin:0;color:var(--muted)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+summary{font-weight:700;cursor:pointer}details p{margin:10px 0 0;color:var(--muted)}
+.cta{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin:40px 0;text-align:center}
+.cta p{margin:0 0 12px;font-weight:600}.btns a{display:inline-block;margin:6px;padding:10px 18px;border-radius:999px;border:1.5px solid var(--red);text-decoration:none;font-weight:600}
+footer{color:var(--muted);font-size:14px;padding:24px 20px 48px;border-top:1px solid var(--line);margin-top:40px}
+@media (max-width:640px){.shots{grid-template-columns:1fr 1fr}.shots figure:nth-child(3){display:none}.lead{font-size:18px}}
+ ol,ul{padding-left:22px} li{margin:6px 0}</style></head>
+<body><header><a class="brand" href="../../pt/"><img src="../../img/icon.png" width="40" height="40" alt="">Penra</a></header>
+<main><section class="hero"><h1>Verifique você mesmo</h1><p class="lead">Dizemos que o Penra não coleta nada. Você não precisa confiar em nós. Seu aparelho conta cada byte que cada app envia, e você pode ver.</p></section></main>
+<section class="band"><strong>Sem conta. Sem nuvem. Sem internet.</strong></section>
+<main><h2>Confira no seu aparelho (Android)</h2><ol><li>Abra Configurações → Apps → Penra → Dados móveis e Wi-Fi (em alguns aparelhos: Uso de dados).</li><li>Anote os números e use o Penra por um dia: digitalize páginas, grave voz, busque, pergunte às notas.</li><li>Olhe de novo. Depois do download único dos modelos, os números não crescem.</li><li>Teste mais forte: ative o modo avião. Tudo no Penra continua funcionando.</li></ol>
+<h2>Nossa medição (24 de outubro de 2026, Penra do Google Play)</h2><div class="card"><p>Estatísticas de rede do próprio Android para o Penra desde a instalação: uma janela de 2 horas em 23 de outubro com 4.073,5 MB recebidos (os modelos de IA) e 46,7 MB enviados. A parte enviada são 815.433 pacotes de 57 bytes em média: as confirmações (ACKs do TCP) que todo download devolve, sem conteúdo. Desde então: 0 bytes, nos dois sentidos.</p></div>
+<h2>Por que nada pode ser enviado</h2><ul><li>Sem conta, sem cadastro, sem servidor do Penra.</li><li>Sem código de análise, relatório de falhas ou anúncios: essas bibliotecas são removidas ao compilar o app.</li><li>A internet é usada só para baixar os modelos de IA e listas de palavras quando você pede (Hugging Face ou Oracle Cloud).</li><li>Em breve: modelos entregues pelo Google Play, e o Penra não precisará mais da permissão de internet.</li></ul>
+<p><a href="../../pt/">← Voltar ao Penra</a></p></main>
+<footer>© 2026 Penra · <a href="../../privacy/">Política de privacidade</a></footer></body></html>
