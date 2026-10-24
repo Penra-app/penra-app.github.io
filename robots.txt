@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://penra-app.github.io/sitemap.xml
