@@ -3,14 +3,14 @@
 > Penra is a private AI second brain for Android. Ask your notes questions, turn handwriting, PDFs and voice into text, and find ideas by meaning. No account, no cloud, no internet.
 
 ## Key facts
-- Private AI second brain for Android phones and tablets; Windows and iOS in progress.
+- Private AI second brain that runs on your device (Android now; Windows and iOS in progress).
 - NO ACCOUNT. NO CLOUD. NO INTERNET: all AI runs on the device; notes never leave it.
 - Features: Ask your notes (Ask in your own words and get an answer with the notes it came from.); Handwriting & PDFs to text (Photograph a page: Penra flattens it, turns it upright and reads it with an on-device AI model. Multi-page documents and PDFs too.); Voice to text (Record a meeting, lecture or idea. Text appears while you speak; different speakers are told apart.); Find by meaning ("The meeting about money" finds the note even if it never says "money". Related notes and links are found for you.); Write on anything (Pens and a highlighter on top of photos, screenshots and PDF pages.); Translate & organise (Translate notes on the device. Tags, templates, to-do boards, and hiding private details before sharing.)
 - 15 languages: English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian and Turkish.
 - Pricing: 7-day free Pro trial, then monthly, yearly or lifetime via Google Play.
 
 ## FAQ
-- Is there a notes app that works without internet? Yes. Penra reads handwriting, transcribes voice, searches and answers questions entirely on your Android phone or tablet. The AI models are downloaded once; after that everything works offline.
+- Is there a notes app that works without internet? Yes. Penra reads handwriting, transcribes voice, searches and answers questions entirely on your device. The AI models are downloaded once; after that everything works offline.
 - Does Penra need an account or send my notes to a server? No. There is no sign-up and no Penra server. Notes, photos and recordings stay on your device. There are no ads, no analytics and no tracking.
 - Can Penra turn handwriting into text? Yes. Take a photo of a page and an on-device AI model reads everyday handwriting, forms, lists and printed text, including multi-page documents and PDFs.
 - What is a "second brain"? A place that keeps what you capture and helps you find and use it later. Penra links your notes, finds them by meaning and answers questions from them, privately on your device.
