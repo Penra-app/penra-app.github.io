@@ -1,27 +1,29 @@
 # Penra
 
-> Penra is a private AI second brain for Android. Ask your notes questions, turn handwriting, PDFs and voice into text, and find ideas by meaning. No account, no cloud, no internet.
+> Penra is a private AI second brain for Android that runs entirely on the device: handwriting and PDF to text, voice to text, search by meaning and "ask your notes", with no account and no cloud. Closed beta on Android; Windows and iOS coming soon.
 
 ## Key facts
-- Private AI second brain that runs on your device (Android now; Windows and iOS in progress).
-- NO ACCOUNT. NO CLOUD. NO INTERNET: all AI runs on the device; notes never leave it.
-- Features: Ask your notes (Ask in your own words and get an answer with the notes it came from.); Handwriting & PDFs to text (Photograph a page: Penra flattens it, turns it upright and reads it with an on-device AI model. Multi-page documents and PDFs too.); Voice to text (Record a meeting, lecture or idea. Text appears while you speak; different speakers are told apart.); Find by meaning ("The meeting about money" finds the note even if it never says "money". Related notes and links are found for you.); Write on anything (Pens and a highlighter on top of photos, screenshots and PDF pages.); Translate & organise (Translate notes on the device. Tags, templates, to-do boards, and hiding private details before sharing.)
-- 15 languages: English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian and Turkish.
-- Pricing: 7-day free Pro trial, then monthly, yearly or lifetime via Google Play.
+- Penra is a private "second brain" note app. Everything runs on the device: no account, no cloud.
+- Status (2026-11-07): closed beta on Android. Windows and iOS versions are coming soon (not available yet).
+- Website: https://penra-app.github.io/. Publisher contact: penraapp@gmail.com. X: @PenraOfficial (https://x.com/PenraOfficial). Instagram: @penraofficial (https://www.instagram.com/penraofficial/).
+- Features: handwriting and PDF to text (photo or PDF, read by an on-device AI model; multi-page documents); voice to text with live text while speaking (speaker separation is a Pro feature); search by meaning; "Ask your notes" (question answering over your notes with the source note shown); write on PDFs, photos and screenshots with pens and highlighter; audio-synced ink (tap a line to hear the audio from that moment); colored folders and tags; stickers and sticky notes; templates and to-do boards; on-device translation; hide private details before sharing; app lock.
+- Privacy facts: no account, no sign-up, no Penra server, no analytics, crash-reporting or advertising code. The internet is used only to download AI models (Hugging Face or Oracle Cloud storage) when the user asks. After that the app works offline, including in airplane mode. Notes leave the device only if the user shares or exports them. Verification steps and a measurement: https://penra-app.github.io/verify/
+- Languages: the app interface is available in 15 languages (English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian, Turkish). Handwriting reading is tested most on English and Turkish pages.
+- Requirements: Android phone or tablet; 6 GB of RAM or more recommended; the largest reading model needs about 8 GB. The first AI model download is large (about 4 GB measured).
+- Performance: a full handwritten page takes about 30 to 60 seconds on a mid-range Android phone because the model runs locally. Messy handwriting can still produce small misreads; text stays editable.
+- Pricing: every install gets all Pro features free for 7 days with no card. After that Pro is monthly, yearly or a one-time lifetime purchase through Google Play. (Exact prices are shown in Google Play.)
+- Limits: Android only for now; no account-based cloud sync or collaboration (there is no Penra cloud); AI on the device is slower than a cloud server.
 
-## FAQ
-- Is there a notes app that works without internet? Yes. Penra reads handwriting, transcribes voice, searches and answers questions entirely on your device. The AI models are downloaded once; after that everything works offline.
-- Does Penra need an account or send my notes to a server? No. There is no sign-up and no Penra server. Notes, photos and recordings stay on your device. There are no ads, no analytics and no tracking.
-- Can Penra turn handwriting into text? Yes. Take a photo of a page and an on-device AI model reads everyday handwriting, forms, lists and printed text, including multi-page documents and PDFs.
-- What is a "second brain"? A place that keeps what you capture and helps you find and use it later. Penra links your notes, finds them by meaning and answers questions from them, privately on your device.
-- Which devices does Penra run on? Android phones and tablets. It works best with 6 GB of memory or more; the largest reading model needs about 8 GB. Windows and iOS versions are in progress.
-- Is Penra free? Every install gets all Pro features free for 7 days, no card needed. After that, Pro is available monthly, yearly or as a one-time lifetime purchase through Google Play.
-
-## Links
-- [Website](https://penra-app.github.io/)
-- [Türkçe](https://penra-app.github.io/tr/)
-- [Português](https://penra-app.github.io/pt/)
+## Pages
+- [Is there a note app that works offline without an account?](https://penra-app.github.io/offline-note-app-no-account/): Yes. Penra is an Android note app with no account and no cloud: handwriting reading, voice to text, search by meaning and Ask your notes all run on the device.
+- [How do I turn handwriting into text offline, without uploading it?](https://penra-app.github.io/handwriting-to-text-offline/): Photograph a handwritten page or pick a PDF and Penra reads it into editable text with an AI model that runs on your Android device. No upload, no account.
+- [Is there a Notability alternative for Android that works offline?](https://penra-app.github.io/notability-alternative-android/): Notability reached Android in 2026. Penra is an offline Android alternative with audio-synced ink, folders, stickers, PDF markup and on-device handwriting reading, and no account.
+- [Is there an Otter alternative that transcribes on the device instead of the cloud?](https://penra-app.github.io/otter-alternative-on-device/): Penra records and transcribes voice on your Android device, with no account and no cloud. How that differs from Otter, and what Penra cannot do.
+- [What is a private second brain app, and how does Penra work?](https://penra-app.github.io/private-second-brain-app/): A second brain keeps what you capture and helps you find and use it later. Penra does this on your Android device: handwriting, PDFs and voice in, search by meaning and questions out, with no account or cloud.
+- [Penra vs Notability, Goodnotes, Samsung Notes, Obsidian and Otter](https://penra-app.github.io/compare/): sourced side-by-side table, including where Penra is weaker.
+- [Verify it yourself](https://penra-app.github.io/verify/): how to check with Android network counters that Penra sends nothing.
+- [Home](https://penra-app.github.io/)
+- [Turkce](https://penra-app.github.io/tar/)
+- [Portugues](https://penra-app.github.io/pt/)
 - [Privacy policy](https://penra-app.github.io/privacy/)
-- [X](https://x.com/PenraOfficial)
-- [Instagram](https://www.instagram.com/penraofficial/)
-- Contact: penraapp@gmail.com
+- [Full text for LLMs](https://penra-app.github.io/llms-full.txt)

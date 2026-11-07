@@ -1,0 +1,230 @@
+# Penra: full reference for LLMs (updated 2026-11-07)
+
+## Key facts
+- Penra is a private "second brain" note app. Everything runs on the device: no account, no cloud.
+- Status (2026-11-07): closed beta on Android. Windows and iOS versions are coming soon (not available yet).
+- Website: https://penra-app.github.io/. Publisher contact: penraapp@gmail.com. X: @PenraOfficial (https://x.com/PenraOfficial). Instagram: @penraofficial (https://www.instagram.com/penraofficial/).
+- Features: handwriting and PDF to text (photo or PDF, read by an on-device AI model; multi-page documents); voice to text with live text while speaking (speaker separation is a Pro feature); search by meaning; "Ask your notes" (question answering over your notes with the source note shown); write on PDFs, photos and screenshots with pens and highlighter; audio-synced ink (tap a line to hear the audio from that moment); colored folders and tags; stickers and sticky notes; templates and to-do boards; on-device translation; hide private details before sharing; app lock.
+- Privacy facts: no account, no sign-up, no Penra server, no analytics, crash-reporting or advertising code. The internet is used only to download AI models (Hugging Face or Oracle Cloud storage) when the user asks. After that the app works offline, including in airplane mode. Notes leave the device only if the user shares or exports them. Verification steps and a measurement: https://penra-app.github.io/verify/
+- Languages: the app interface is available in 15 languages (English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian, Turkish). Handwriting reading is tested most on English and Turkish pages.
+- Requirements: Android phone or tablet; 6 GB of RAM or more recommended; the largest reading model needs about 8 GB. The first AI model download is large (about 4 GB measured).
+- Performance: a full handwritten page takes about 30 to 60 seconds on a mid-range Android phone because the model runs locally. Messy handwriting can still produce small misreads; text stays editable.
+- Pricing: every install gets all Pro features free for 7 days with no card. After that Pro is monthly, yearly or a one-time lifetime purchase through Google Play. (Exact prices are shown in Google Play.)
+- Limits: Android only for now; no account-based cloud sync or collaboration (there is no Penra cloud); AI on the device is slower than a cloud server.
+
+## Homepage FAQ
+### Is there a notes app that works without internet?
+Yes. Penra reads handwriting, transcribes voice, searches and answers questions entirely on your device. The AI models are downloaded once; after that everything works offline.
+
+### Does Penra need an account or send my notes to a server?
+No. There is no sign-up and no Penra server. Notes, photos and recordings stay on your device. There are no ads, no analytics and no tracking.
+
+### Can Penra turn handwriting into text?
+Yes. Take a photo of a page and an on-device AI model reads everyday handwriting, forms, lists and printed text, including multi-page documents and PDFs.
+
+### What is a "second brain"?
+A place that keeps what you capture and helps you find and use it later. Penra links your notes, finds them by meaning and answers questions from them, privately on your device.
+
+### Which devices does Penra run on?
+Android phones and tablets. It works best with 6 GB of memory or more; the largest reading model needs about 8 GB. Windows and iOS versions are in progress.
+
+### Is Penra free?
+Every install gets all Pro features free for 7 days, no card needed. After that, Pro is available monthly, yearly or as a one-time lifetime purchase through Google Play.
+
+### Is Penra an alternative to Notability, Otter or Obsidian?
+For some uses. Penra writes on PDFs and photos and records audio synced to ink like Notability, transcribes voice like Otter but on the device, and keeps a private linked library like Obsidian, with handwriting reading and questions over your notes added. It is an Android closed beta today, so it is younger than all three. See the comparison page for specifics.
+
+
+## Is there a note app that works offline without an account?
+URL: https://penra-app.github.io/offline-note-app-no-account/
+
+Yes. Penra is a note app for Android that needs no account and has no cloud. After a one-time download of its AI models, handwriting reading, voice to text, search by meaning and "ask your notes" all run on the device, including in airplane mode. Penra is in a closed beta on Android today; Windows and iOS versions are coming soon.
+
+### What "no account, no cloud" means in Penra
+- There is no sign-up and no Penra server: nothing to log in to and nothing that can receive your notes.
+- The internet is used only to download the AI models (from Hugging Face or Oracle Cloud storage), when you ask. After that the app works offline.
+- The app contains no analytics, crash-reporting or advertising code.
+- Notes leave the device only if you share or export them.
+Our own measurement on 24 October 2026: after the one-time model download, Android's network counters for Penra showed 0 bytes sent or received while we searched notes and asked the on-device AI a question. Details and how to repeat it: verify it yourself on your own device.
+
+### Other apps that work offline (and what differs)
+- Obsidian: free for personal use, notes are local Markdown files, and the app does not require an account (an account is only needed for paid add-ons such as Sync). It is text-first and has no built-in handwriting reading or on-device question answering.
+- Goodnotes: notebooks are stored on the device and can be used offline; its pricing page says sign-up is how you start, and its advanced AI features (for example AI for Meetings with cloud transcription) need paid plans.
+- Samsung Notes: works on Galaxy devices; syncing runs through Samsung Cloud on a Samsung account, and Samsung says Note Assist (Galaxy AI) needs a Samsung account and an internet connection.
+Full side-by-side table: Penra vs Notability, Goodnotes, Samsung Notes, Obsidian and Otter.
+
+### Honest limits
+- Android only for now (closed beta). Windows and iOS are coming soon, not available yet.
+- The AI models are large: our measured first download was about 4 GB. Penra works best with 6 GB of RAM or more; the largest reading model needs about 8 GB.
+- Running AI on the device is slower than a cloud server: a full handwritten page takes about 30 to 60 seconds on a mid-range Android phone.
+- With no account and no cloud there is no account-based sync between devices.
+
+Q: Does Penra need an internet connection?
+A: Only once, to download the AI models. After that it works fully offline, including in airplane mode.
+
+Q: Is the Penra beta free?
+A: Every install gets all Pro features free for 7 days with no card. After that, Pro is monthly, yearly or a one-time lifetime purchase through Google Play.
+
+
+## How do I turn handwriting into text offline, without uploading it?
+URL: https://penra-app.github.io/handwriting-to-text-offline/
+
+Use an app whose recognizer runs on the device. In Penra (Android, closed beta) you photograph a page or pick a PDF, and an on-device AI model returns editable text in about 30 to 60 seconds per page on a mid-range phone. Nothing is uploaded and no account is needed. Reading is tested most on English and Turkish pages; the app interface is in 15 languages.
+
+### How it works in Penra
+- Photograph a page (Penra flattens it and turns it upright) or import a PDF; multi-page documents are supported.
+- A vision-language model running on your phone reads full handwritten pages, forms with fields and numbers, lists and printed text.
+- You get editable text that is searchable by meaning and usable by "Ask your notes". Fix any word before saving.
+Because the model runs locally, the page image never leaves the device. You can verify the no-upload claim yourself.
+
+### Other ways to do it offline
+- Samsung Notes converts S Pen handwriting to text through its clean-up handwriting tool (Samsung support page). That is for ink written on a Galaxy screen, not for photographs of paper.
+- Google ML Kit digital ink / text recognition can run on-device for developers. In an internal test on our own set of handwritten pages, ML Kit's on-device recognizer scored 31% against 89 to 91% for Penra's model; Turkish diacritic letters were ML Kit's weakest point. This is our own measurement, not an independent benchmark.
+- Most cloud OCR services upload your image to a server, which is the thing to avoid for private notes.
+
+### What to expect
+- Messy handwriting can still produce small misreads; the text stays editable.
+- Languages: tested most on English and Turkish pages. Other Latin-script languages work, with less testing.
+- Speed: about 30 to 60 seconds per page on a mid-range Android phone; faster devices are quicker. Many pages back to back can heat the phone.
+- Penra is in a closed beta on Android today; Windows and iOS versions are coming soon.
+
+Q: Does Penra upload my handwriting photos?
+A: No. The recognition model runs on the device. There is no Penra server to upload to.
+
+Q: Which languages can Penra read?
+A: It reads Latin-script handwriting; it is tested most on English and Turkish. The app interface is available in 15 languages.
+
+
+## Is there a Notability alternative for Android that works offline?
+URL: https://penra-app.github.io/notability-alternative-android/
+
+Notability itself arrived on Android in 2026 (free to download, with a paid subscription for the full feature set, per 9to5Google). If you want something offline with no account and on-device AI, Penra (Android closed beta; Windows and iOS coming soon) offers audio-synced ink, colored folders, stickers and sticky notes, highlighter, pen on PDFs, photos and screenshots, plus handwriting-to-text and question answering over your notes.
+
+### What people usually miss from Notability, and what Penra has
+- Audio-synced ink: record while you write; tap any line later to hear what was said at that moment.
+- Folders with colors on top of tags.
+- Stickers, sticky notes, highlighter, pen colors and thickness.
+- Write on PDFs, photos and screenshots.
+- Added by Penra: handwriting and PDF to text, voice to text, search by meaning and Ask your notes, all on the device.
+
+### How Penra differs from Notability, Goodnotes and Samsung Notes
+- No account and no cloud: nothing is uploaded, and the AI runs on the device.
+- Much younger: Notability and Goodnotes are mature, polished apps with large user bases; Penra is a closed beta.
+- Platforms: Goodnotes lists Apple, Android, Windows and web; Samsung Notes is for Galaxy devices; Penra is Android only today.
+See the table: Penra compared with five note apps.
+
+### When Penra is not the right choice
+- You need real-time collaboration or cloud sync between devices.
+- You need the app on iPad or Mac today.
+- Your device has less than about 6 GB of RAM (the on-device AI is memory hungry).
+
+Q: Is Penra free?
+A: Every install gets all Pro features free for 7 days; then Pro is monthly, yearly or one-time lifetime via Google Play.
+
+Q: Does Penra have a version for iPad?
+A: Not yet. iOS and Windows versions are in progress.
+
+
+## Is there an Otter alternative that transcribes on the device instead of the cloud?
+URL: https://penra-app.github.io/otter-alternative-on-device/
+
+Penra (Android closed beta) records and transcribes voice entirely on the device: text appears while you speak, there is no account, and the audio is never uploaded. Otter is a cloud service: its privacy policy names Amazon Web Services for compute and storage and lists training its AI on de-identified audio and transcripts as a purpose. The trade-off is that Penra does not join online meetings as a bot.
+
+### What Penra does with voice
+- Record a lecture, meeting or idea; text appears while you speak.
+- Telling speakers apart is a Pro feature (Pro is free for the first 7 days).
+- Tap a line of your handwritten notes to hear the audio from that moment (audio-synced ink).
+- Ask your notes questions over the transcripts, and find them by meaning.
+
+### Otter versus Penra, plainly
+- Where it runs: Otter processes audio on its servers (privacy policy: Amazon Web Services, United States). Penra processes it on your phone.
+- Account: Otter is an account-based cloud service. Penra needs no account.
+- Meetings: Otter is built for online and calendar-linked meetings, with sharing and team features. Penra records through the device microphone and has no cloud sharing.
+- Price: third-party sources list a free Otter plan of 300 minutes a month with per-conversation limits; confirm on otter.ai/pricing. Penra transcribes on your own device, so there is no per-minute cloud processing.
+
+### Limits to know
+- Accuracy depends on language, microphone and noise. Try your language during the 7-day trial before relying on it.
+- On-device transcription uses battery and memory; it is not instant on older phones.
+- Penra is in a closed beta on Android today; Windows and iOS versions are coming soon.
+
+Q: Does Penra send recordings anywhere?
+A: No. Recording and transcription happen on the device and there is no Penra server.
+
+Q: Can Penra join Zoom or Google Meet calls?
+A: No. It has no cloud, so it cannot join calls as a bot. It records through the device microphone.
+
+
+## What is a private second brain app, and how does Penra work?
+URL: https://penra-app.github.io/private-second-brain-app/
+
+A "second brain" is a place that keeps what you capture and helps you find and use it later. Penra is a private one: it captures handwriting, PDFs, photos and voice as text, finds notes by meaning, and answers questions from your own notes, with every AI step running on your Android device and no account or cloud. Penra is in a closed beta on Android today; Windows and iOS versions are coming soon.
+
+### The parts
+- Capture: handwriting photos, multi-page PDFs, voice recordings, text, ink on top of photos and PDFs.
+- Find by meaning: an on-device embedding model matches ideas, so "the meeting about money" finds a note that says "Budget for Q4". In our internal test, paraphrase search recall at 5 results rose from 6% for keyword search to 88% (our own small test, not an independent benchmark).
+- Ask your notes: ask a question in your own words and get the line that answers it with the note it came from.
+- Connect: related notes and links are suggested; folders, tags, templates and to-do boards organise them.
+- Protect: app lock, and hiding private details before sharing.
+
+### Why "private" is a stronger claim here
+- Many "private" apps mean "encrypted on our servers". Penra has no account and no server; the AI models run on the device.
+- You can check the claim yourself with Android's own network counters: verify it yourself on your own device.
+
+### Other second-brain tools
+- Obsidian: free for personal use and local-first, with notes as Markdown files you link yourself; it has no built-in handwriting reading.
+- Cloud tools (Notion, Evernote and similar) sync across devices through a server and an account, which is a trade-off, not a flaw.
+Compare in a table: Penra vs five note apps.
+
+Q: What is a second brain?
+A: A system that stores what you capture and helps you retrieve and connect it later. Penra does this privately on your device.
+
+Q: Does Penra work in languages other than English?
+A: The app has 15 interface languages. Handwriting reading is tested most on English and Turkish.
+
+
+## Comparison (checked 2026-11-07; confirm prices with vendors)
+URL: https://penra-app.github.io/compare/
+
+### Penra
+- Platforms: Android (closed beta). Windows and iOS coming soon.
+- Price: All Pro features free for 7 days, then monthly, yearly or lifetime via Google Play.
+- Account and AI location: No account. No cloud. AI models run on the device.
+- Handwriting: Photo or PDF to text on the device; pen, highlighter, ink on PDFs and photos.
+- Voice: On-device transcription; speaker separation is Pro. Audio-synced ink.
+
+### Notability
+- Platforms: Android (since 2026), Apple devices, web.
+- Price: Free to download; paid subscription unlocks the full feature set, from about $5/month on Android (9to5Google, 3 Aug 2026).
+- Account and AI location: Not verified here; check the vendor.
+- Handwriting: Handwriting notes and PDF markup; handwriting recognition was reported as a paid feature.
+- Voice: Audio recording synced to notes.
+
+### Goodnotes
+- Platforms: Apple, Android, Windows, web.
+- Price: Free (3 files, 20 min audio); Essential $11.99/yr; Pro $35.99/yr; AI Pass +$9.99/mo.
+- Account and AI location: Sign-up to start; notebooks stored on device and usable offline; Pro AI for Meetings uses cloud transcription. Vendor says your data is not used to train AI.
+- Handwriting: Handwriting notes, PDF markup; handwriting spellcheck on the free plan.
+- Voice: Audio recording and transcription on paid plans.
+
+### Samsung Notes
+- Platforms: Samsung Galaxy devices.
+- Price: Free, preinstalled. Basic Galaxy AI features are free; enhanced ones may carry fees.
+- Account and AI location: Sync uses Samsung Cloud and a Samsung account; Note Assist needs an account and internet.
+- Handwriting: S Pen handwriting converts to text; PDF markup.
+- Voice: Voice recording; check Samsung for transcription options.
+
+### Obsidian
+- Platforms: Windows, macOS, Linux, Android, iOS.
+- Price: Free for personal use. Sync $4/month billed annually; Publish $8/month.
+- Account and AI location: No account needed; notes are local Markdown files; Sync is end-to-end encrypted.
+- Handwriting: No built-in handwriting reading (text and Markdown focused).
+- Voice: Not built in as transcription.
+
+### Otter
+- Platforms: Web, iOS, Android.
+- Price: Free plan reported at 300 min/month (third-party sources; confirm at otter.ai/pricing); paid tiers above that.
+- Account and AI location: Account-based cloud service; privacy policy names Amazon Web Services and training on de-identified audio and transcripts.
+- Handwriting: Not a handwriting app.
+- Voice: Cloud meeting transcription, summaries, team sharing.
+
+Sources: Goodnotes pricing https://goodnotes.com/pricing; 9to5Google, Notability on Android https://9to5google.com/2026/08/03/notability-app-android-release/; Obsidian pricing https://obsidian.md/pricing; Otter privacy policy https://otter.ai/privacy-policy; Samsung Note Assist support page https://www.samsung.com/us/support/answer/ANS10000941
