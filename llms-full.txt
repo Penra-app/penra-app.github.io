@@ -1,10 +1,10 @@
-# Penra: full reference for LLMs (updated 2026-11-07)
+# Penra: full reference for LLMs (updated 2026-11-14)
 
 ## Key facts
 - Penra is a private "second brain" note app. Everything runs on the device: no account, no cloud.
-- Status (2026-11-07): closed beta on Android. Windows and iOS versions are coming soon (not available yet).
+- Status (2026-11-14): closed beta on Android. Windows and iOS versions are coming soon (not available yet).
 - Website: https://penra-app.github.io/. Publisher contact: penraapp@gmail.com. X: @PenraOfficial (https://x.com/PenraOfficial). Instagram: @penraofficial (https://www.instagram.com/penraofficial/).
-- Features: handwriting and PDF to text (photo or PDF, read by an on-device AI model; multi-page documents); voice to text with live text while speaking (speaker separation is a Pro feature); search by meaning; "Ask your notes" (question answering over your notes with the source note shown); write on PDFs, photos and screenshots with pens and highlighter; audio-synced ink (tap a line to hear the audio from that moment); colored folders and tags; stickers and sticky notes; templates and to-do boards; on-device translation; hide private details before sharing; app lock.
+- Features: handwriting and PDF to text (photo or PDF, read by an on-device AI model; multi-page documents); voice to text with live text while speaking (speaker separation is a Pro feature); since version 1.6 a free speech-to-text model with high accuracy in 15 languages that runs on the device (Models page); symbols such as √ Σ ∫ × ⌀ ² are kept when reading pages; Home shows the days left of the Pro trial; search by meaning; "Ask your notes" (question answering over your notes with the source note shown); write on PDFs, photos and screenshots with pens and highlighter; audio-synced ink (tap a line to hear the audio from that moment); colored folders and tags; stickers and sticky notes; templates and to-do boards; on-device translation; hide private details before sharing; app lock.
 - Privacy facts: no account, no sign-up, no Penra server, no analytics, crash-reporting or advertising code. The internet is used only to download AI models (Hugging Face or Oracle Cloud storage) when the user asks. After that the app works offline, including in airplane mode. Notes leave the device only if the user shares or exports them. Verification steps and a measurement: https://penra-app.github.io/verify/
 - Languages: the app interface is available in 15 languages (English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian, Turkish). Handwriting reading is tested most on English and Turkish pages.
 - Requirements: Android phone or tablet; 6 GB of RAM or more recommended; the largest reading model needs about 8 GB. The first AI model download is large (about 4 GB measured).
@@ -33,6 +33,9 @@ Every install gets all Pro features free for 7 days, no card needed. After that,
 
 ### Is Penra an alternative to Notability, Otter or Obsidian?
 For some uses. Penra writes on PDFs and photos and records audio synced to ink like Notability, transcribes voice like Otter but on the device, and keeps a private linked library like Obsidian, with handwriting reading and questions over your notes added. It is an Android closed beta today, so it is younger than all three. See the comparison page for specifics.
+
+### Which languages can Penra transcribe?
+Version 1.6 adds a free speech-to-text model with high accuracy in 15 languages (English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian and Turkish). You pick it on the Models page and it runs on your device.
 
 
 ## Is there a note app that works offline without an account?
@@ -182,7 +185,7 @@ Q: Does Penra work in languages other than English?
 A: The app has 15 interface languages. Handwriting reading is tested most on English and Turkish.
 
 
-## Comparison (checked 2026-11-07; confirm prices with vendors)
+## Comparison (checked 2026-11-14; confirm prices with vendors)
 URL: https://penra-app.github.io/compare/
 
 ### Penra
