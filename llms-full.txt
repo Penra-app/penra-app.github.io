@@ -254,6 +254,15 @@ URL: https://penra-app.github.io/compare/
 - Not Uteke Cloud (uteke.app). Play package dev.codecora.uteke.
 - More: https://penra-app.github.io/uteke-alternative-android/
 
+### Wispr Flow (cloud dictation, not a notes app; checked on wisprflow.ai 2026-11-19)
+- Platforms: Mac, Windows, iPhone and Android (Android 13 or higher). Types dictated text into the app you are using; on Android a floating bubble next to the keyboard.
+- Price: Free plan with a weekly word limit; official pages gave different figures on 2026-11-19 (home FAQ 2,000 words per week; plans help: 2,000 on Mac and Windows, mobile limits can differ between accounts; Android help: up to 3,000, in-app copy may still say 1,000). Pro $15/user/month or $144/user/year; Growth $23 or $33/user/month (US card list prices, 2026-11-19; prices differ by region).
+- Account and AI location: Account required ("Create an account or sign in"). "Transcription always happens in the cloud to provide the best speed and accuracy." Does not work offline (Android FAQ).
+- Handwriting: Not a handwriting or PDF notes app.
+- Voice: Cloud dictation in 100+ languages; Notetaker for meetings listed on Mac, Windows and iPhone.
+- Official app is Wispr Flow by Wispr AI, Inc. (Play package com.wispr.flowapp), not the fake "Whisper Flow" listings and not OpenAI Whisper.
+- More: https://penra-app.github.io/wispr-flow-alternative-android/
+
 Sources: Goodnotes pricing https://goodnotes.com/pricing; 9to5Google, Notability on Android https://9to5google.com/2026/08/03/notability-app-android-release/; Obsidian pricing https://obsidian.md/pricing; Otter privacy policy https://otter.ai/privacy-policy; Samsung Note Assist support page https://www.samsung.com/us/support/answer/ANS10000941; XNote https://xnote.ai/pages/xnote-app, https://xnote.ai/pages/help, https://xnote.ai/pages/privacy; SoloNote https://solonote.rolled.ai/, https://solonote.rolled.ai/privacy/; Uteke https://mobile.uteke.app/
 
 ## New guides (2026-11-11)
@@ -261,3 +270,4 @@ Sources: Goodnotes pricing https://goodnotes.com/pricing; 9to5Google, Notability
 - XNote smart pen alternative for Android, no account: https://penra-app.github.io/xnote-alternative-android/ (XNote smart pen with cloud AI vs Penra private notes on the phone)
 - SoloNote alternative for Android: handwriting, PDFs and voice: https://penra-app.github.io/solonote-alternative-android/ (SoloNote by RolledAI vs Penra private notes: both on-device with no account; Penra adds handwriting, PDFs and voice saved as Android notes)
 - Uteke alternative for Android: handwriting, PDFs and voice: https://penra-app.github.io/uteke-alternative-android/ (Uteke semantic notes vs Penra private notes: both search on the device with no account; Penra adds handwriting, PDFs and uncapped voice to text)
+- Wispr Flow alternative for Android, no account: https://penra-app.github.io/wispr-flow-alternative-android/ (Wispr Flow cloud dictation vs Penra private notes on the phone; added 2026-11-19)
